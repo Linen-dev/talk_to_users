@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Helvetica', sans-serif;
+}
+
+#textDisplay {
+  font-weight: bold;
+  font-size: 15em;
+  color: #000000; /* Default to black text for light mode */
+}
+
+/* Detect dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #000000; /* Dark background for dark mode */
+  }
+
+  #textDisplay {
+    color: #ffffff; /* White text for dark mode */
+  }
+}

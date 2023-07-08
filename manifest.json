@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Talk to users",
+  "description": "This extension reminds you to talk to users",
+  "version": "1.0",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "actions": {
+    "default_icon": "linen-logo.svg"
+  }
+}
